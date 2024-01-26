@@ -803,7 +803,51 @@ body {
   height: 5px;
   color: #4F4F4F;
 }
-
+.contentmenu {
+  display: none;
+}
+.dropdownmenu:hover .contentmenu {
+  display: block;
+}
+.contentmenu .content {
+  position: absolute;
+  background-color: #fff;
+  z-index: 2;
+  padding: 25px 20px;
+  
+}
+.contentmenu .signup {
+  display: flex;
+  width: 240px;
+  padding: 15px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;  
+  border-radius: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  background: var(--3-fcf-5-e, #3FCF5E);
+  margin-bottom: 15px;
+  color: var(--ffffff, #FFF);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+.contentmenu .registration {
+  display: flex;
+  width: 240px;
+  padding: 15px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;  
+  border-radius: 10px;
+  text-decoration: none;  
+  border: 1px solid var(--Gray-4, #BDBDBD);
+  color: var(--Gray-1, #333);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
 .input-first {
   padding: 17px 0 16px 20px;
   width: 345px;
@@ -818,6 +862,7 @@ body {
 .search {
   position: absolute;
   left: 85%;
+  z-index: 1;
 }
 
 .main {
