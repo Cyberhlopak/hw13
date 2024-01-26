@@ -789,7 +789,6 @@ body {
 .dropdowncatalog .content a {
   display: block;
   color: var(--Gray-2, #4F4F4F);
-  font-family: Gilroy;
   font-size: 18px;
   font-weight: 500;
   text-decoration: none;
