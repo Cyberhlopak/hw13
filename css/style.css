@@ -769,6 +769,10 @@ body {
   text-decoration: none;
 }
 
+.dropdowncatalog {
+  position: relative;
+}
+
 .dropdowncatalog .content {
   display: none;
   position: absolute;
@@ -780,6 +784,8 @@ body {
   padding-bottom: 30px;
   padding-right: 25px;
   padding-left: 50px;
+  top: 0px;
+  margin-top: 50px;
 }
 
 .dropdowncatalog:hover .content {
@@ -803,19 +809,29 @@ body {
   height: 5px;
   color: #4F4F4F;
 }
+
+.dropdownmenu {
+  position: relative;
+}
+
 .contentmenu {
   display: none;
 }
+
 .dropdownmenu:hover .contentmenu {
   display: block;
 }
+
 .contentmenu .content {
+  margin-top: 70px;
   position: absolute;
   background-color: #fff;
   z-index: 2;
   padding: 25px 20px;
-  
+  top: 0px;
+  right: 0px;
 }
+
 .contentmenu .signup {
   display: flex;
   width: 240px;
@@ -833,6 +849,7 @@ body {
   font-size: 16px;
   font-weight: 600;
 }
+
 .contentmenu .registration {
   display: flex;
   width: 240px;
@@ -848,6 +865,7 @@ body {
   font-size: 16px;
   font-weight: 600;
 }
+
 .input-first {
   padding: 17px 0 16px 20px;
   width: 345px;
